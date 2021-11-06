@@ -11,7 +11,7 @@ public class MaxElement {
         
         double number = -9999;
         int size = input.nextInt();
-        int[] numbers = new int[size];
+        double[] numbers = new double[size];
 
         for (int index = 0; index < numbers.length; index++) {
             numbers[index] = input.nextInt();
@@ -19,6 +19,6 @@ public class MaxElement {
               number = numbers[index];
             }
         }
-        System.out.println(number);
+        System.out.println("Max number: " + number);
     }
 }  

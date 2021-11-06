@@ -9,10 +9,10 @@ public class MinIndex {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        int number = 9999;
+        double number = 9999;
         int i = 0;
         int size = input.nextInt();
-        int[] numbers = new int[size];
+        double[] numbers = new double[size];
 
         for (int index = 0; index < numbers.length; index++) {
             numbers[index] = input.nextInt();
@@ -21,6 +21,6 @@ public class MinIndex {
               i = index;
             } 
         }  
-        System.out.println(i);
+        System.out.println("Min index: " + i);
     }  
 }  
